@@ -1,0 +1,35 @@
+.center__container {
+    display: flex;
+
+}
+.input__box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 1.1rem;
+    margin: 15px 0;
+}
+input {
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid var(--mainWhite);
+    line-height: 1.6;
+    font-size: 1.2rem;
+    outline: none;
+}
+.create__btn {
+    padding: 8px 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    letter-spacing: 3px;
+    background-color: var(--mainGreen);
+    font-weight: 900;
+    color: var(--mainWhite);
+}
+.create__btn:hover {
+    background-color: var(--mainRed);
+    color: var(--mainBlck)
+}

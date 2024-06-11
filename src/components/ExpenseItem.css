@@ -1,0 +1,31 @@
+.item__box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid var(--mainWhite)
+}
+.info__box {
+    flex: 0.65;
+    display: flex;
+    justify-content: space-between;
+}
+.edit__btn,
+.remove__btn {
+    transition: all 0.15s linear;
+    cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+.edit__btn {
+    background-color: var(--mainGreen);
+    margin-right: 20px;
+}
+.remove__btn {
+    background-color: var(--mainRed);
+}
+
+.edit__btn:hover,
+.remove__btn:hover {
+    transform: scale(0.92);
+}

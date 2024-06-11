@@ -1,0 +1,46 @@
+:root {
+  --mainColor: #a2d1f0;
+  --subColor: #ecee96;
+  --mainWhite: #fefefe;
+  --mainBlack: #292929;
+  --mainRed: #da7c7c;
+  --mainGreen: #bcebbb;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+body {
+  color: var(--mainBlack);
+}
+.main__container {
+  width: 780px;
+  margin:0 auto;
+  background-color: var(--mainColor);
+  padding: 40px 30px;
+  margin-top: 40px;
+  border-radius: 50px;
+  box-shadow: 3px 5px 15px rgba(0,0,0,0.15);
+}
+h1 {
+  font-size: 28px;
+}
+.bottom__box {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.all__remove__btn {
+  padding: 8px 14px;
+  border-radius: 5px;
+  background-color: var(--mainRed);
+  color: var(--mainWhite);
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.all__remove__btn:hover {
+  transform: scale(0.95)
+}
